@@ -1,0 +1,49 @@
+﻿  Source.cpp
+D:\Forestry\OOP\Лаб_6\Project1\Project1\Source.cpp(67,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Forestry\OOP\Лаб_6\Project1\Project1\Source.cpp(10,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Forestry\OOP\Лаб_6\Project1\Project1\Source.cpp(54): message : see reference to function template instantiation 'T *CreateSortedArray<int>(int)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Forestry\OOP\Лаб_6\Project1\Project1\Source.cpp(13,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  task_2.cpp
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(14,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(12): message : while compiling class template member function 'T *Task<T>::CreateArray(void)'
+          with
+          [
+              T=double
+          ]
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(80): message : see reference to function template instantiation 'T *Task<T>::CreateArray(void)' being compiled
+          with
+          [
+              T=double
+          ]
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(77): message : see reference to class template instantiation 'Task<double>' being compiled
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(39,18): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(36): message : while compiling class template member function 'T *Task<T>::CreateNewArrayWithExponent(void)'
+          with
+          [
+              T=int
+          ]
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(61): message : see reference to function template instantiation 'T *Task<T>::CreateNewArrayWithExponent(void)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(55): message : see reference to class template instantiation 'Task<int>' being compiled
+D:\Forestry\OOP\Лаб_6\Project1\Project1\task_2.cpp(17,19): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Generating Code...
+  Project1.vcxproj -> D:\Forestry\OOP\Лаб_6\Project1\x64\Debug\Project1.exe
