@@ -42,7 +42,7 @@ public:
 		return array;
 	}
 };
-int main()
+int main_2()
 {
     unsigned int size;
     std::cout << "Type size of array: \n";
