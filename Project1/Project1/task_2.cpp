@@ -1,6 +1,6 @@
 #include<iostream>
 template <class T>
-class Task {
+class ExponentArray {
 	int size;
 	T* array;
 public:
@@ -52,7 +52,7 @@ int main_2()
     std::cin >> choice;
     switch (choice) {
     case 1: {
-        Task<int> object;
+        ExponentArray<int> object;
         object.SetSize(size);
         std::cout << "Generate array: \n";
         object.CreateArray();
@@ -63,7 +63,7 @@ int main_2()
         break;
     }
     case 2: {
-        Task<float> object;
+        ExponentArray<float> object;
         object.SetSize(size);
         std::cout << "Generate array: \n";
         object.CreateArray();
@@ -74,7 +74,7 @@ int main_2()
         break;
     }
     case 3: {
-        Task<double> object;
+        ExponentArray<double> object;
         object.SetSize(size);
         std::cout << "Generate array: \n";
         object.CreateArray();
